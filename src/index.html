@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>News homepage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./output.css">
 </head>
-<body class="bg-Off-white px-4 pt-7.5 pb-20 min-h-screen max-w-[375px] lg:max-w-full lg:flex lg:justify-center lg:pt-22 lg:pb-32 relative">
+<body class="bg-Off-white px-4 pt-7.5 pb-20 min-h-screen max-w-[375px] lg:max-w-full lg:flex lg:justify-center lg:pt-22 lg:pb-32 relative font-Inter">
     <section class="grey-filter z-20 lg:w-fit">
         <header class="flex justify-between items-center mb-8 lg:hidden">
             <img src="./assets/images/logo.svg" alt="">
@@ -28,10 +31,10 @@
         </header>
         <main class=" lg:w-280 h-full lg:grid lg:grid-cols-3 lg:grid-rows-[511px_129px] gap-x-[30px] gap-y-[71px]">
             <div class="first-container grid gap-6 lg:gap-7 mb-16 lg:mb-0 lg:grid-cols-2 lg:grid-rows-[300px_183px] lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:row-end-2">
-                <div class="img-container bg-[url('./assets/images/image-web-3-mobile.jpg')] w-full h-[300px] lg:bg-[url('./assets/images/image-web-3-desktop.jpg')] lg:col-span-2 lg:col-start-1 lg:row-start-1"></div>
-                <h1 class="font-extrabold text-[40px] lg:text-[56px] leading-none ">The Bright Future of Web 3.0?</h1>
+                <div class="img-container bg-[url('./assets/images/image-web-3-mobile.jpg')] w-full h-[300px] lg:bg-[url('./assets/images/image-web-3-desktop.jpg')] lg:bg-contain lg:bg-no-repeat lg:col-span-2 lg:col-start-1 lg:row-start-1"></div>
+                <h1 class="font-bold text-[40px] lg:text-[56px] leading-none ">The Bright Future of Web 3.0?</h1>
                 <div class="text-and-button lg:flex lg:flex-col lg:justify-between">
-                    <p class="text-Dark-grayish-blue text-[15px]">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people.
+                    <p class="text-Dark-grayish-blue text-[15px] lg:leading-7">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people.
                         But is it really fulfilling its promise?</p>
                     <button class="w-[185px] h-12 bg-Soft-red uppercase tracking-widest font-bold text-[14px] mt-6 cursor-pointer hover:bg-Very-dark-blue hover:text-Off-white">Read more</button>
                 </div>
@@ -39,13 +42,13 @@
             <div class="second-container bg-Very-dark-blue px-5 py-6 lg:py-8 w-full mb-16 lg:mb-0 lg:row-start-1 lg:row-end-2">
                 <h2 class="text-Soft-orange text-[32px] font-bold mb-9">New</h2>
                 <h3 class="text-xl text-Off-white font-bold hover:text-Soft-orange cursor-pointer">Hydrogen VS Electric Cars</h3>
-                <p class="mb-7 text-Off-white text-[15px]">Will hydrogen-fueled cars ever catch up to EVs?</p>
+                <p class="mb-7 text-Grayish-blue lg:leading-7 text-[15px]">Will hydrogen-fueled cars ever catch up to EVs?</p>
                 <div class="breaker border-b-Dark-grayish-blue border-1 w-full mb-7"></div>
                 <h3 class="text-xl text-Off-white font-bold hover:text-Soft-orange cursor-pointer">The Downsides of AI Artistry</h3>
-                <p class="mb-7 text-Off-white text-[15px]">What are the possible adverse effects of on-demand AI image generation?</p>
+                <p class="mb-7 text-Grayish-blue lg:leading-7 text-[15px]">What are the possible adverse effects of on-demand AI image generation?</p>
                 <div class="breaker border-b-Dark-grayish-blue border-1 w-full mb-7"></div>
                 <h3 class="text-xl text-Off-white font-bold hover:text-Soft-orange cursor-pointer">Is VC Funding Drying Up?</h3>
-                <p class=" text-Off-white text-[15px]">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+                <p class=" text-Grayish-blue lg:leading-7 text-[15px]">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
             </div>
             <div class="third-container flex flex-col gap-8 lg:col-span-3 lg:row-span-1 lg:grid lg:grid-cols-3">
                 <div class="container01 flex gap-6">
